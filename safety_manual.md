@@ -127,15 +127,8 @@ The validation of the software tool shall meet the following criteria:
 
 
 ## 2 Example Use Cases
-
-
-UC1) Conversion TRLC files to Markdown format
-UC2) Conversion TRLC files to docx format using a stored userdefined document template.
-UC3) Conversion TRLC files to reStructuredText format
-UC4) Dump TRLC item list to console
-UC5) Apply attribute name translation 
-
-The following tables are an example of a use case where the ***pyTRLCConverter*** tool is used for safety-relevant requirements: 
+The Use Cases defined in #151-Use-Cases-of-the-tool-pyTRLCConverter are analyzed in the following to get a recommended method of qualification.  
+The following tables are an example of use cases where the ***pyTRLCConverter*** tool is used for safety-relevant requirements: 
 
 ### 2.1 Conversion TRLC files to Markdown format UC1
 |||
