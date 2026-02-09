@@ -194,8 +194,8 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 ## 3 Summary
 
 The user of the software tool may used the valdidated tool within its requirments, design, implementation and test cases to get the validated software tool: ***pyTRLCConverter***. 
-But when the user of the tool changes or adapt something in code the user must also adpat the other process relevant documents and test cases of the tool. 
-The user must determine the appropriate tool classification for their own use case and the appropriate qualification method. The use case upon summaries are only examples.
+Butif there are any tool changes or adaptions during deveopment in code the the all process relevant documents must be adapted and test cases may be reworked and reexecuted. 
+The user must determine the appropriate tool classification for their own use case and the appropriate qualification method. The use case upon are only examples.
 
 ### 3.1 Summary for using the pyTRLCConverter python tool for non-safety-relevant Requirements
 
@@ -203,4 +203,4 @@ If the ***pyTRLCConverter*** tool is used solely for conversion of non-safety-re
 
 ### 3.2 Summary for using the pyTRLCConverter python tool for safety-relevant Requirements
 
-If the ***pyTRLCConverter*** tool is used for conversion of safety-relevant requirements, the user of the software tool must determine the increased tool confidence level and perform qualification via validation of the software tool.
+If the ***pyTRLCConverter*** tool is used for conversion of safety-relevant requirements, the user of the software tool must determine the increased tool confidence level (suggested tcl3) and perform qualification via validation of the software tool.
