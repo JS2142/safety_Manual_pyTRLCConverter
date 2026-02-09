@@ -6,7 +6,7 @@
   - [Product Goals and Usage](#13-product-goals-and-usage)
   - [Tool Usage according to ISO 26262](#14-tool-usage-according-to-iso-26262)
   - [Classification Hints](#15-classification-hints)
-    - [Use Cases of the tool pyTRLCConverter](#151-Use-Cases-of-the-tool pyTRLCConverter)
+    - [Use Cases of the tool pyTRLCConverter](#151-Use-Cases-of-the-tool-pyTRLCConverter)
     - [Tool Impact TI of potential violations](#152-Tool-Impact-TI-of-potential-violations)
     - [Tool error detection](#153-Tool-error-detection)
     - [Tool Confidence Level TCL](#154-Tool-Confidence-Level-TCL) 
@@ -70,7 +70,7 @@ Example use cases and their corresponding hints for classification and qualifica
 
 ### 1.5 Classification Hints
 
-### 1.5.1 Use Cases of the tool ***pyTRLCConverter***
+### 1.5.1 Use Cases of the tool pyTRLCConverter
 For every planned use case of the tool, the tool confidence level TCL needs to be assessed according to ISO ISO 26262-8:2018 table 3.
 The TCL result largely depends on the additional process constraints which apply for the following use cases to convert TRLC (Treat Requirements Like Code) files to different output formats.
 
