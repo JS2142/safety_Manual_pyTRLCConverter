@@ -59,13 +59,12 @@ Example use cases and their corresponding hints for classification and qualifica
 
 ### 1.5.1 Use Cases of the tool pyTRLCConverter
 For every planned use case of the tool, the tool confidence level TCL needs to be assessed according to ISO ISO 26262-8:2018 table 3.
-The TCL result largely depends on the additional process constraints which apply for the following use cases to convert TRLC (Treat Requirements Like Code) files to different output formats.
-
-UC1) Conversion TRLC files to Markdown format
-UC2) Conversion TRLC files to docx format using a stored userdefined document template.
-UC3) Conversion TRLC  files to reStructuredText format
-UC4) Dump TRLC item list to console
-UC5) Apply attribute name translation 
+The TCL result depends on the use cases to convert TRLC (Treat Requirements Like Code) files to different output formats.
+- UC1) Conversion TRLC files to Markdown format
+- UC2) Conversion TRLC files to docx format using a stored userdefined document template.
+- UC3) Conversion TRLC  files to reStructuredText format
+- UC4) Dump TRLC item list to console
+- UC5) Apply attribute name translation 
 
 
 ### 1.5.2 Tool Impact TI of potential violations
