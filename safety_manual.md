@@ -173,7 +173,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |**Intended Purpose**| ***Dump TRLC item list to console*** output. The tool dumpts the complete TRLC item lists to the console. The tool requires two kinds of TRLC input sources for the conversion. These are the requirements (*.trlc) files and the model (*.tls) files. It will dump all requirments directly into console output.|
 |**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0.<br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the paths of the input requirements (*.trlc) files and the model (*.tls) files.|
-|**Output**| The converted safety-relevant source requirements dumpted into output consonle.|
+|**Output**| The converted safety-relevant source requirements dumpted into output console.|
 |**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are dumped into console output are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
 |**Tool Error Detection**|**TD3 (low degree of confidence of prevention or detection)**<br>Rationale:<br><ul><li>It is not possible to detect a deleted or corrupt requirement, since the review process for the requirement is already finished.</li></ul>|
 |**Tool Confidence Level**|**TCL3**|
