@@ -80,7 +80,7 @@ In the case of the ***pyTRLCConverter*** tool and in a typical use case, errors 
 It is considered likely that an error in the ***pyTRLCConverter*** tool could cause an undetected error in the requirements with an high Impact on safety or safety goal. So the Tool Impact can be considered as **TI2**. 
 
 ### 1.5.3 Tool error detection 
-For all these potential violations a, b, c and d it is not possible for the user of the tool to detect these errors upon review of the converted requirement. 
+For all these potential violations a, b, c and d it is not possible for the user of the tool to detect these errors upon reviewing of the converted requirement because the review process of writing requirements is already finished. 
 It would be necessary for the user of the software tool ***pyTRLCConverter*** to review the converted requirement document against the origin TRLC requirements. 
 For all these potential violations e and f it would be necessary to  detect errors to review the project specific confersion .JSON and .py files and to review the project specific document templates (docx template).
 The user has only low possibility to dected a tool error so the Tool Error Detetion is very low **TD3**.
