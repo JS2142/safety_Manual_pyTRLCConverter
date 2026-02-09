@@ -53,7 +53,7 @@ In accordance with ISO 26262-8:2018, any tool can be used in the development of 
 The tool user needs to ensure that, based on his use case, a tool classification was conducted, and that a qualification of the tool has been executed on the basis of this classification.
 
 Tool classification and qualification must be carried out by the user of the tool, who knows his use case in detail. 
-Example use cases and their corresponding hints for classification and qualification are provided in chapter 2 of this document.
+Example use cases and their corresponding hints for classification and qualification are provided in the following of this document.
 
 ### 1.5 Classification Hints
 
