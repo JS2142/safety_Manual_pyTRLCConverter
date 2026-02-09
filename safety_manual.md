@@ -135,7 +135,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |||
 |---|---|
 |**Intended Purpose**|Convert a ***TRLC file to Markdown format***. The tool requires two kinds of TRLC input sources for the conversion. These are the requirements (*.trlc) files and the model (*.tls) files. It will create a Markdown file with the same name as the requirements file (*.trlc) in the current directory, but with the Markdown extension (.md).|
-|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br><mark>***pyTRLCConverter*** GPL-3.0. </mark><br>|
+|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0.<br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the paths of the input requirements (*.trlc) files and the model (*.tls) files.|
 |**Output**| Requirement document in  Markdown format including the converted safety-relevant source requirements.|
 |**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are converted to a markdown file are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
@@ -147,7 +147,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |||
 |---|---|
 |**Intended Purpose**|Convert a ***TRLC file to docx format*** using a stored userdefined document template. The tool requires two kinds of TRLC input sources for the conversion. These are the requirements (*.trlc) files and the model (*.tls) files.  Also a document template .docx musst be stored for the conversion process. The tool will create requirement output docx file with the same name as the requirements file (*.trlc) in the current directory, but with the docx extension (.docx).|
-|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br><mark>***pyTRLCConverter*** GPL-3.0. </mark><br>|
+|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0. <br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the paths of the input requirements (*.trlc) files and the model (*.tls) files. Also store a docx template.|
 |**Output**| Requirement document in the docx format based on the document template including the converted safety-relevant source requirements.|
 |**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are converted to a docx file are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
@@ -159,7 +159,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |||
 |---|---|
 |**Intended Purpose**|Convert a ***TRLC file to to reStructuredText*** format. The tool requires two kinds of TRLC input sources for the conversion. These are the requirements (*.trlc) files and the model (*.tls) files. It will create a reStructuredText file with the same name as the requirements file (*.rst) in the current directory, but with the reStructuredText extension (.rst).|
-|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br><mark>***pyTRLCConverter*** GPL-3.0. </mark><br>|
+|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0.<br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the paths of the input requirements (*.trlc) files and the model (*.tls) files.|
 |**Output**| Requirement document in the reStructuredText format including the converted safety-relevant source requirements.|
 |**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are converted to a reStructuredText file are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
@@ -171,7 +171,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |||
 |---|---|
 |**Intended Purpose**| ***Dump TRLC item list to console*** output. The tool dumpts the complete TRLC item lists to the console. The tool requires two kinds of TRLC input sources for the conversion. These are the requirements (*.trlc) files and the model (*.tls) files. It will dump all requirments directly into console output.|
-|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br><mark>***pyTRLCConverter*** GPL-3.0. </mark><br>|
+|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0.<br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the paths of the input requirements (*.trlc) files and the model (*.tls) files.|
 |**Output**| The converted safety-relevant source requirements dumpted into output consonle.|
 |**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are dumped into console output are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
@@ -183,7 +183,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |||
 |---|---|
 |**Intended Purpose**| ***Apply attribute name translation*** . The tool uses a user defined project specified translation JSON file to make the requirements better readable. The tool requires a translation JSON file to translate the attribute names.|
-|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br><mark>***pyTRLCConverter*** GPL-3.0. </mark><br>|
+|**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0.<br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the translation JSON file. Use the --translation argument to specify the translation file.|
 |**Output**| Requirement document includs the attribute better readably attribute names with the safety-relevant source requirements.|
 |**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are dumped into console output are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
