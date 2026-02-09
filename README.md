@@ -1,2 +1,2 @@
 # safety_Manual_pyTRLCConverter
-add enw safety manual for pyTRLCConverter
+the safety manual for the tool pyTRLCConverter
