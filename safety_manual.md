@@ -186,7 +186,7 @@ The following tables are an example of use cases where the ***pyTRLCConverter***
 |**Environmental, Functional and Process Constraints**|Operating system: Windows 10 (version 20H2, 64bit)<br>***pyTRLCConverter*** GPL-3.0.<br>|
 |**Description**|Run the ***pyTRLCConverter*** python tool, using the translation JSON file. Use the --translation argument to specify the translation file.|
 |**Output**| Requirement document includs the attribute better readably attribute names with the safety-relevant source requirements.|
-|**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are dumped into console output are safety-relevant, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
+|**Tool Impact**|**TI2 (Possibility of impact on a safety requirement)**<br>Rationale:<br><ul><li>Since the requirement which are converted into a better readble text, it is possible that ***pyTRLCConverter*** may delete or corrupt requirements or part of them and thereby lead to the violation of a safety goal.</li></ul>|
 |**Tool Error Detection**|**TD3 (low degree of confidence of prevention or detection)**<br>Rationale:<br><ul><li>It is not possible to detect a deleted or corrupt requirement, since the review process for the requirement is already finished.</li></ul>|
 |**Tool Confidence Level**|**TCL3**|
 |**Recommended Method of Qualification**|Validation of the software tool|
