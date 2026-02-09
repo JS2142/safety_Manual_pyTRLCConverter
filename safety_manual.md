@@ -88,7 +88,7 @@ The user has only low possibility to dected a tool error so the Tool Error Detet
 ### 1.5.4 Tool Confidence Level TCL
 The tool error detection is very low (Tool error detection = TD3) and all these errors may result in a violation of a safety goal.
 Therefore, ***pyTRLCConverter*** may be classified with a Tool error detection **TD3** and Tool Impact **TI3** results into a Tool confidence level **TCL3** (according to ISO 26262-8:2018 table 3)  
-A confidence level of **TCL3** require tool qualification measures (typical of safety-relevant systems).
+A confidence level of **TCL3** require tool qualification measures (typical of safety-relevant systems) defined in ISO 26262-8:2018  table 4 — Qualification of software tools classified TCL3.
 
 ### 1.6 Qualification Hints
 
