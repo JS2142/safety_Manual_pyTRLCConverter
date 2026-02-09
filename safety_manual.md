@@ -127,9 +127,9 @@ The validation of the software tool shall meet the following criteria:
 
 
 ## 2 Example Use Cases
-The Use Cases defined in 1.5.1 Use Cases of the tool pyTRLCConverter are analyzed in the following to get a recommended method of qualification.  
+The Use Cases defined in [Use Cases of the tool pyTRLCConverter](#151-Use-Cases-of-the-tool-pyTRLCConverter) are analyzed in the following to get a recommended method of qualification.  
 The following tables are an example of use cases where the ***pyTRLCConverter*** tool is used for safety-relevant requirements: 
-[Use Cases of the tool pyTRLCConverter](#151-Use-Cases-of-the-tool-pyTRLCConverter).
+
 
 ### 2.1 Conversion TRLC files to Markdown format UC1
 |||
