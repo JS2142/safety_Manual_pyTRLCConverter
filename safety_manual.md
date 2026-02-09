@@ -22,19 +22,6 @@
   - [Summary: Generate Lobster File from Doxygen XML Files for **non-safety-relevant** Requirements](31-generate-lobster-file-from-doxygen-xml-files-for-non-safety-relevant-requirements)
   - [Summary: Generate Lobster File from Doxygen XML Files for **safety-relevant** Requirements](32-generate-lobster-file-from-doxygen-xml-files-for-safety-relevant-requirements)
   
-
-### 1.6 Qualification Hints
-### 1.7 Validation of the Software Tool
-## 2 Example Use Cases
-  - [Conversion TRLC files to Markdown format UC1](#21-Conversion-TRLC-files-to-Markdown-format-UC1)
-  - [Conversion TRLC files to docx format using a stored userdefined document template UC2](#22-Conversion-TRLC-files-to-docx-format-using-a-stored-userdefined-document-template-UC2)
-  - [Conversion TRLC files to reStructuredText format UC3](#23-Conversion-TRLC-files-to-reStructuredText-format-UC3)
-  - [Dump TRLC item list to console UC4](#24-Dump-TRLC-item-list-to-console-UC4)
-  - [Apply attribute name translation UC5](#25-Apply-attribute-name-translation-UC5)
-  - [Summary for using the pyTRLCConverter python tool for non-safety-relevant Requirements](#31-Summary-for-using-the-pyTRLCConverter-python-tool-for-non-safety-relevant-Requirements)
-  - [Summary for using the the pyTRLCConverter python tool for non-safety-relevant Requirements](#32-Summary-for- using-the-pyTRLCConverter-python-tool-for-safety-relevant-Requirements)
-  
-  
 ## 1 Introduction
 
 ### 1.1 Purpose of this Document
