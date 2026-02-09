@@ -70,12 +70,12 @@ The TCL result depends on the use cases to convert TRLC (Treat Requirements Like
 ### 1.5.2 Tool Impact TI of potential violations
 The primary purpose of classification is to identify the extent to which errors resulting from the ***pyTRLCConverter*** tool can cause violations of a safety goal. 
 In the case of the ***pyTRLCConverter*** tool and in a typical use case, errors may take one of the general forms during executing the tool converting process
-a) requirements or parts of it are lost
-b) requirements or parts of it are corrupted 
-c) arguments of the requirements are lost or corrupted 
-d) implementation reference to another requirement is corrupted
-e) with the possibliity to convert reuqirements to a format with using a project specific conversion files (.json and .py files). The requirment content may be deleted or corrupted.
-f) using a corrupted docx ducument template to export to the format docx, requirements or parts of it are lost or corrupted. 
+- a) requirements or parts of it are lost
+- b) requirements or parts of it are corrupted 
+- c) arguments of the requirements are lost or corrupted 
+- d) implementation reference to another requirement is corrupted
+- e) with the possibliity to convert reuqirements to a format with using a project specific conversion files (.json and .py files). The requirment content may be deleted or corrupted.
+- f) using a corrupted docx ducument template to export to the format docx, requirements or parts of it are lost or corrupted. 
 
 It is considered likely that an error in the ***pyTRLCConverter*** tool could cause an undetected error in the requirements with an high Impact on safety or safety goal. So the Tool Impact can be considered as **TI2**. 
 
